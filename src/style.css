@@ -1,0 +1,17 @@
+h1, p {
+  font-family: Lato;
+}
+.textflow{
+  line-height:18px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow:hidden;
+  font-size: 15px;
+}
+.box{
+  -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+          margin-bottom: 20px;
+}
